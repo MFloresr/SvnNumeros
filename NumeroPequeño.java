@@ -12,7 +12,7 @@ public class NumeroPequeño {
         lector = new Scanner(System.in);
         System.out.println("Introduce 10 Numeros : ");
         pequeño = lector.nextInt();
-	//pedimos los 10 numeros projecto1
+	//pedimos los 10 numeros Projecto1 importante 
         for (int i=0;i < CantidadNumeros-1 ;i++){
                 numero = lector.nextInt();
                 if (numero < pequeño){
